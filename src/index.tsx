@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { ReactNode, useLayoutEffect, useState } from "react";
 
