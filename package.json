@@ -1,6 +1,6 @@
 {
   "name": "react-detection",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/neodyland/react-detection",
@@ -13,6 +13,10 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
 }
